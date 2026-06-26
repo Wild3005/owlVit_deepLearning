@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+.venv/
+rocm_env/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Output images (auto-generated)
+save_images/*.jpg
+save_images/*.png
+save_images/*.jpeg
+
+# HuggingFace model cache (large, re-downloadable)
+# ~/.cache/huggingface/ is outside this repo — no action needed
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
