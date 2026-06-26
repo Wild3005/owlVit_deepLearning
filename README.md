@@ -1,4 +1,4 @@
-# 🏧 ATM Security System — OWL-ViT Face Coverage Detector
+# ATM Security System — OWL-ViT Face Coverage Detector
 
 A computer vision security system that detects whether a person's face is concealed by **sunglasses**, **face masks**, or **hats** before allowing an ATM transaction. Built with [OWL-ViT](https://huggingface.co/google/owlvit-base-patch32) (zero-shot object detection) and OpenCV.
 
@@ -37,7 +37,7 @@ Is a face detected?
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.10+
 - PyTorch 2.0+ (CUDA **or** ROCm)
@@ -45,12 +45,12 @@ Is a face detected?
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/owlVit_deepLearning.git
+git clone https://github.com/Wild3005/owlVit_deepLearning.git
 cd owlVit_deepLearning
 ```
 
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Static image
 
@@ -124,7 +124,7 @@ Output images are saved automatically to `save_images/atm_result_<timestamp>.jpg
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 owlVit_deepLearning/
@@ -146,7 +146,7 @@ owlVit_deepLearning/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Key thresholds can be tuned at the top of `atm_security.py`:
 
@@ -158,7 +158,7 @@ FACE_COVER_RATIO      = 0.40   # Minimum face visibility ratio (vs image size)
 
 ---
 
-## 🧠 Model
+## Model
 
 - **Model:** [`google/owlvit-base-patch32`](https://huggingface.co/google/owlvit-base-patch32)
 - **Type:** Open-vocabulary zero-shot object detection
@@ -167,6 +167,6 @@ FACE_COVER_RATIO      = 0.40   # Minimum face visibility ratio (vs image size)
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and research purposes.
